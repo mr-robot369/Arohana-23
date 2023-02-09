@@ -140,7 +140,7 @@ button:hover{
 }
 @media  screen and (max-width:400px) {
   .modal-header{
-    font-size: 1rem;
+    font-size: 0.5rem;
   }
   .modal-content{
     width: 40%;
@@ -192,6 +192,7 @@ button:hover{
 } */
 .modal-body .poster img{
   max-width: 220px;
+  max-height: 350px;
 }
 .modal-body .logo-content{
   font-size: 20px;
@@ -267,5 +268,8 @@ button:hover{
 @media(max-width:62em){
   #events_cards{
     grid-template-columns: repeat(1,1fr);
+  }
+  .modal-header{
+    font-size: 2rem;
   }
 }
