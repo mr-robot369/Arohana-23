@@ -19,6 +19,9 @@ function clickinner(target){
     else if (target=="photography"){
         window.location.href='./events/photography.html';
     }
+    else if (target=="fun"){
+        window.location.href='./events/fun.html';
+    }
     else{
         window.location.href='./events/technical.html';
     }
