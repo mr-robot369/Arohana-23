@@ -25,6 +25,29 @@ body{
     flex-direction: row;
     margin: 50px;
 }
+.fl1{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    justify-content: center;
+}
+.fl2{
+    display: flex;
+    flex-direction:row ;
+    margin: 50px;
+}
+.fl3{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+.insideorg
+{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
 .heading1{
     text-align: center;
 }
