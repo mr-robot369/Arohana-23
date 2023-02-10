@@ -89,7 +89,9 @@ body {
     display: none;
 
 }
-
+.AAROHNA-logo:hover{
+    cursor: pointer;
+}
 /* Media querry for Navigation Bar */
 
 @media(max-width:1200px) {
@@ -166,7 +168,7 @@ body {
         opacity: 0;
         visibility: hidden;
         pointer-events: none;
-        /* z-index: 99; */
+        z-index: 99;
         overflow-x: hidden;
 
 
